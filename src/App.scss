@@ -1,0 +1,16 @@
+@import './scss/settings';
+@import './scss/functions';
+@import './scss/utilities';
+@import './scss/reset';
+
+@import './scss/components/buttons';
+@import './scss/components/form';
+@import './scss/components/grid';
+@import './scss/components/modals';
+
+@import './ui/CreateAgenda/createAgenda';
+@import './ui/EditAgenda/editAgenda';
+@import './ui/Home/home';
+@import './ui/OpenAgenda/openAgenda';
+@import './ui/Shared/_agendaForm';
+@import './ui/Static/static';

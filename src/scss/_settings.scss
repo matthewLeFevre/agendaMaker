@@ -1,0 +1,117 @@
+/*
+  1.color
+*/
+
+$thm-primary: #2E86AB;
+$thm-secondary: #CAD49D;
+
+$thm-white: #fff;
+$thm-light: #EFF0F2;
+$thm-grey: #626E79;
+$thm-dark: #404E5C;
+$thm-black: #1E242A;
+
+$thm-blue: #084887;
+$thm-red: #D33115;
+$thm-yellow: #FFCC42;
+$thm-green: #56BF00;
+
+$thm-info: $thm-blue;
+$thm-warning: $thm-red;
+$thm-caution: $thm-yellow;
+$thm-success: $thm-green;
+
+$thm-colors: (
+  "primary": $thm-primary,
+  "secondary": $thm-secondary,
+  "blue": $thm-blue,
+  "red": $thm-red,
+  "yellow": $thm-yellow,
+  "green": $thm-green,
+  "white": $thm-white,
+  "light": $thm-light,
+  "grey": $thm-grey,
+  "dark": $thm-dark,
+  "black": $thm-black
+);
+
+/*
+  2.breakpoints
+*/
+
+$thm-bp-tiny: 350px;
+$thm-bp-sml: 600px;
+$thm-bp-med: 800px;
+
+$thm-break-points: (
+  "tiny": $thm-bp-tiny,
+  "sml": $thm-bp-sml,
+  "med": $thm-bp-med
+);
+
+/*
+  3.z-index
+*/
+
+$thm-z-floor: 0;
+$thm-z-float: 5;
+$thm-z-nav: 20;
+$thm-z-alert: 80;
+$thm-z-ceiling: 100;
+
+/*
+  4.Typography
+*/
+
+$thm-font-primary: sans-serif;
+
+$thm-font-tiny: 12px;
+$thm-font-sml: 14px;
+$thm-font-normal: 16px;
+$thm-font-med: 18px;
+$thm-font-lrg: 24px;
+$thm-font-xlrg: 30px;
+
+$thm-font-sizes: (
+  "tiny": $thm-font-tiny,
+  "sml": $thm-font-sml,
+  "normal": $thm-font-normal,
+  "med": $thm-font-med,
+  "lrg": $thm-font-lrg,
+  "xlrg": $thm-font-xlrg
+);
+
+/*
+  5.Border Radius
+*/
+
+$thm-border-radius: 5px;
+
+/*
+  6.Box Shadow
+*/
+
+$thm-bs-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$thm-bs-1-no-top: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$thm-bs-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+$thm-bs-3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+$thm-bs-4: 0 -1px 3px rgba(0,0,0,0.12), 0 -1px 2px rgba(0,0,0,0.24);
+
+/*
+  9.Grid
+*/
+$grid-columsn: 12;
+$grid-gutter: 1rem;
+
+/*
+  10.Buttons
+*/
+$btn-padding: .5rem 1rem;
+$btn-margin: .5rem;
+$btn-border-radius: $thm-border-radius;
+$btn-font: $thm-font-primary;
+$btn-font-size: $thm-font-sml;
+$btn-font-color: $thm-black;
+$btn-types: "round" "fluid";
+
+

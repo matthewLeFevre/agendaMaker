@@ -1,0 +1,30 @@
+@mixin bp($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin flex(
+  $orientation: row,
+  $wrapping: wrap,
+  $justify: flex-start,
+  $align: flex-start
+) {
+  display: flex;
+  flex-flow: $orientation $wrapping;
+  justify-content: $justify;
+  align-items: $align
+}
+
+@mixin effect($type: all, $speed: .2s, $easing: ease) {
+  transition: $type $speed $easing;
+}
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return $thm-black; 
+  } @else {
+    @return $thm-white;
+  }
+}
+

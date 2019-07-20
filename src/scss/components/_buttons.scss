@@ -1,0 +1,38 @@
+@mixin btn-reset() {
+  // display
+	display: inline;
+	// height width margin padding
+	padding: $btn-padding;
+	margin: $btn-margin;
+	// border background color
+	border: none;
+	border-radius: $btn-border-radius;
+	background-color: transparent;
+	// font text
+	text-align: center;
+	text-decoration: none;
+	font-family: $btn-font;
+	font-size: $btn-font-size;
+	color: $btn-font-color;
+	// other
+	cursor: pointer;
+}
+
+.btn {
+  @include btn-reset;
+}
+
+@each $type in $btn-types {
+  .btn--#{$type} {
+    @include btn-reset;
+    @if $type == "round" {
+      border-radius: 50px;
+      padding: 1rem;
+    }
+    @else if $type == "fluid" {
+      display: block;
+      width: 100%;
+      margin: $btn-margin 0;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.field {
+  border: none;
+}
+.label {
+  display: block;
+  font-size: $thm-font-med;
+  margin-bottom: .25rem;
+  font-weight: bold;
+}
+.input {
+  padding: .5rem;
+  border: 2px solid $thm-black;
+  border-radius: $thm-border-radius;
+  margin-bottom: .5rem;
+  width: 100%;
+  font-size: $thm-font-med;
+}
+
+form {
+  h1 { color: $thm-primary; }
+  h2 { 
+    color: $thm-grey;
+    font-style: italic;
+  }
+}

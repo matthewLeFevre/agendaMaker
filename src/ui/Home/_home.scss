@@ -1,0 +1,30 @@
+.home {
+  padding: 1rem;
+}
+
+.agenda-list {
+  padding: 1rem;
+  max-width: 740px;
+  margin: 0 auto;
+  min-height: calc(100vh - (50px + 2rem));
+  box-shadow: $thm-bs-1;
+  background-color: $thm-light;
+}
+.agenda-list__title {}
+
+.agenda {
+  @include flex(row, wrap, space-between, center);
+  background-color: $thm-white;
+  margin: 1rem 0;
+}
+.agenda__date {
+  padding: .5rem;
+  margin: 0;
+  font-size: $thm-font-med;
+}
+
+.agenda-options__link {
+  @include btn-reset;
+  padding: .5rem;
+  border-radius: 0;
+}
